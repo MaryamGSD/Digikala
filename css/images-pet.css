@@ -1,0 +1,21 @@
+.images-pet{
+    width: 100%;
+    height: 241px;
+    margin-bottom: 30px;
+    .images-pet-center{
+        max-width: 1300px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .images-pet-center-item{
+            width: auto;
+            height: 100%;
+            img{
+                width: 322px;
+                height: 241px;
+                border-radius: 16px;
+            }
+        }
+    }
+}

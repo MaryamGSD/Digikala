@@ -1,0 +1,95 @@
+.brand {
+  width: 100%;
+  padding-bottom: 20px;
+  .brand-center {
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    padding: 20px;
+     
+    .brand-center-top {
+    display: flex;
+      justify-content: space-between;
+      .brand-center-top-right {
+          margin-bottom: 10px;
+          align-items: center;
+         
+        h3 {
+          font-family: var(--font-family-2);
+          font-weight: bold;
+          font-size: 20px;
+          color: #1f1f1f;
+          margin-bottom: 8px;
+          img{
+            width: 23px;
+            height: 24px;
+            margin: 0;
+            vertical-align: middle;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+    .brand-center-bottom {
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .swiper-slide-item {
+          width: 90px;
+          height: 124px;
+          display: flex;
+          flex-flow: column wrap;
+          row-gap: 5px;
+          border: 1px solid lightgray;
+          border-radius: 10px;
+          overflow: hidden;
+          align-items: center;
+          img {
+            width: 78px;
+            height: 78px;
+          }
+          p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -ms-box-orient: vertical;
+            -moz-box-orient: vertical;
+            box-orient: vertical;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            overflow: hidden;
+            font-size: 12px;
+            font-weight: bolder;
+            font-family: var(--font-family-2);
+            text-align: right;
+            padding-right: 7px;
+            margin-top: 10px;
+            color: #424750;
+          }
+        }
+      }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+/*mobile*/
+.mobile2 {
+  height: 269px !important;
+}
+.asli {
+  margin-top: 20px !important;
+}

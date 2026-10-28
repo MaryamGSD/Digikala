@@ -1,0 +1,19 @@
+.pet-page {
+  width: 100%;
+}
+.banner {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    max-width: 1920px;
+    height: 380px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    display: block;
+  }
+}

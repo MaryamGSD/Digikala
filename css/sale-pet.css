@@ -1,0 +1,15 @@
+.sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  .sale-item {
+    p {
+      margin-top: 40px;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: var(--font-family-2);
+      color: #333;
+    }
+  }
+}
