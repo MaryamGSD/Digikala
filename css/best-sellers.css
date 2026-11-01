@@ -1,0 +1,78 @@
+.bestsellers {
+  margin-top: 173px;
+}
+.bestsellers-top {
+  position: relative;
+  background-color: #ffffff;
+  padding: 15px 0 15px;
+  text-align: center;
+  overflow: hidden;
+  h2 {
+    position: relative;
+    z-index: 1;
+    color: #ef394e;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0;
+    font-family: var(--font-family-2);
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 20px 20px;
+  }
+}
+.bestsellers-top::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='140' height='140' viewBox='0 0 140 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ef394e' fill-opacity='0.09'%3E%3C!-- plus --%3E%3Cpath d='M20 15h6v2h-6zM22 13h2v6h-2z'/%3E%3Cpath d='M70 25h5v2h-5zM71.5 23h2v6h-2z'/%3E%3Cpath d='M110 18h6v2h-6zM112 16h2v6h-2z'/%3E%3Cpath d='M40 70h5v2h-5zM41.5 68h2v6h-2z'/%3E%3Cpath d='M95 80h6v2h-6zM97 78h2v6h-2z'/%3E%3C!-- circles --%3E%3Ccircle cx='45' cy='20' r='4' fill='none' stroke='%23ef394e' stroke-width='1.5'/%3E%3Ccircle cx='100' cy='45' r='3.5' fill='none' stroke='%23ef394e' stroke-width='1.5'/%3E%3Ccircle cx='25' cy='95' r='4' fill='none' stroke='%23ef394e' stroke-width='1.5'/%3E%3Ccircle cx='120' cy='100' r='3' fill='none' stroke='%23ef394e' stroke-width='1.5'/%3E%3C!-- dashes --%3E%3Cpath d='M15 45h8' stroke='%23ef394e' stroke-width='1.5'/%3E%3Cpath d='M60 55h10' stroke='%23ef394e' stroke-width='1.5'/%3E%3Cpath d='M85 30h7' stroke='%23ef394e' stroke-width='1.5'/%3E%3Cpath d='M30 120h9' stroke='%23ef394e' stroke-width='1.5'/%3E%3C!-- small triangles --%3E%3Cpath d='M55 90l4 7h-8z'/%3E%3Cpath d='M105 70l3.5 6h-7z'/%3E%3C!-- leaf-like --%3E%3Cpath d='M80 110c3-4 8-4 8 0s-5 4-8 0z'/%3E%3Cpath d='M15 75c3-4 7-4 7 0s-4 4-7 0z'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  opacity: 0.9;
+  pointer-events: none;
+}
+.bestsellers-center {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  .days {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    .day-1,
+    .day-2 {
+      text-decoration: none;
+      color: #81858b ;
+      font-size: 14px;
+      font-family: var(--font-family-2);
+      position: relative;
+      padding-bottom: 8px;
+      transition: color 0.2s;
+    }
+    .day-1,
+    .day-2:hover {
+      color: #ef394e;
+    }
+  }
+  .days::before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 180px;
+    height: 1px;
+    background-color: #ef394e;
+    margin-right: 25px;
+  }
+  .days::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 180px;
+    height: 1px;
+    background-color: #ef394e;
+    margin-left: 25px;
+  }
+}
