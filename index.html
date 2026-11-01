@@ -11,9 +11,16 @@
       href="./images/icon/favicon.ico"
       type="image/x-icon"
     />
+    <style>
+      html,
+      body {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body>
     <!-- make project and wrapper-->
+    <h1 id="top"></h1>
     <div class="wrapper">
       <!--header-->
       <div class="header">
@@ -56,337 +63,2242 @@
                   <div class="mega-menu">
                     <div class="mega-right">
                       <ul>
-                        <li>
-                          <a href="#">
-                            <img src="./images/header/mob.menu.svg" alt="" />
-                            موبایل
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <img src="./images/header/lap.menu.svg" alt="" />
-                            لپتاپ
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <img src="./images/header/kala.menu.svg" alt="" />
-                            کالای دیجیتال</a
+                        <li class="cat-mobile">
+                          <a href="#"
+                            ><img
+                              src="./images/header/mob.menu.svg"
+                              alt=""
+                            />موبایل</a
                           >
                         </li>
-                        <li>
+                        <li class="cat-laptop">
+                          <a href="#"
+                            ><img src="./images/header/lap.menu.svg" alt="" />لپ
+                            تاپ</a
+                          >
+                        </li>
+                        <li class="cat-digital">
+                          <a href="#"
+                            ><img
+                              src="./images/header/kala.menu.svg"
+                              alt=""
+                            />کالای دیجیتال</a
+                          >
+                        </li>
+                        <li class="cat-khanegi">
                           <a href="#"
                             ><img
                               src="./images/header/fridge.menu.svg"
                               alt=""
-                            />
-                            لوازم خانگی برقی</a
+                            />لوازم خانگی برقی</a
                           >
                         </li>
-                        <li>
+                        <li class="cat-mahali">
                           <a href="#"
                             ><img
-                              src="./images/header/handmade.menu.svg"
+                              src="./images/header/art.menu.svg"
                               alt=""
-                            />
-                            محصولات بومی و محلی
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="#"
-                            ><img src="./images/header/sofa.menu.svg" alt="" />
-                            خانه و آشپزخانه</a
+                            />محصولات بومی و محلی</a
                           >
                         </li>
-                        <li>
-                          <a href="#"
-                            ><img src="./images/header/makeup.svg" alt="" />
-                            آرایشی و بهداشتی</a
-                          >
-                        </li>
-                        <li>
+                        <li class="cat-khane">
                           <a href="#"
                             ><img
-                              src="./images/header/pushak.menu.svg"
+                              src="./images/header/sofa.menu.svg"
                               alt=""
-                            />
-                            مد و پوشاک</a
+                            />خانه و آشپزخانه</a
                           >
                         </li>
-                        <li>
-                          <a href="#"
-                            ><img src="./images/header/gold.menu.svg" alt="" />
-                            طلا و نقره</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><img src="./images/header/car.menu.svg" alt="" />
-                            خودرو موتورسیکلت</a
-                          >
-                        </li>
-                        <li>
+                        <li class="cat-behdashti">
                           <a href="#"
                             ><img
-                              src="./images/header/medical.menu.svg"
+                              src="./images/header/makeup.svg"
                               alt=""
-                            />
-                            سلامتی و پزشکی</a
+                            />آرایشی و بهداشتی</a
                           >
                         </li>
-                        <li>
+                        <li class="cat-pushak">
                           <a href="#"
-                            ><img src="./images/header/tools.menu.svg" alt="" />
-                            ابزارآلات و تجهیزات</a
+                            ><img src="./images/header/t-shirt.svg" alt="" />مد
+                            و پوشاک</a
                           >
                         </li>
-                        <li>
-                          <a href="#"
-                            ><img src="./images/header/art.menu.svg" alt="" />
-                            کتاب و هنر</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><img src="./images/header/camp.menu.svg" alt="" />
-                            ورزش و سفر</a
-                          >
-                        </li>
-                        <li>
+                        <li class="cat-gold">
                           <a href="#"
                             ><img
-                              src="./images/header/giftcard.menu.svg"
+                              src="./images/header/gold.menu.svg"
                               alt=""
-                            />
-                            کارت هدیه و گیفت کارت</a
+                            />طلا و نقره</a
                           >
                         </li>
-                        <li>
+                        <li class="cat-car">
                           <a href="#"
                             ><img
-                              src="./images/header/basket.menu.svg"
+                              src="./images/header/car.menu.svg"
                               alt=""
-                            />
-                            سوپرمارکت آنلاین</a
+                            />خودرو و موتورسیکلت</a
                           >
                         </li>
-                        <li>
-                          <a href="#"
-                            ><img src="./images/header/baby.menu.svg" alt="" />
-                            اسباب بازی،کودک و نوزاد</a
-                          >
-                        </li>
-                        <li>
+                        <li class="cat-pet">
                           <a href="#"
                             ><img
                               src="./images/header/petshop.menu.svg"
                               alt=""
-                            />
-                            پت شاپ</a
+                            />پت شاپ</a
+                          >
+                        </li>
+                        <li class="cat-pezeshki">
+                          <a href="#"
+                            ><img
+                              src="./images/header/medical.menu.svg"
+                              alt=""
+                            />سلامت و پزشکی</a
+                          >
+                        </li>
+                        <li class="cat-tools">
+                          <a href="#"
+                            ><img
+                              src="./images/header/tools.menu.svg"
+                              alt=""
+                            />ابزارآلات و تجهیزات</a
+                          >
+                        </li>
+                        <li class="cat-book">
+                          <a href="#"
+                            ><img
+                              src="./images/header/art.menu.svg"
+                              alt=""
+                            />کتاب و هنر</a
+                          >
+                        </li>
+                        <li class="cat-gift">
+                          <a href="#"
+                            ><img
+                              src="./images/header/giftcard.menu.svg"
+                              alt=""
+                            />کارت هدیه و گیفت کارت</a
                           >
                         </li>
                       </ul>
                     </div>
                     <div class="mega-left">
-                      <div class="mega-all">
-                        <a href="#" class="blue"
-                          >همه محصولات موبایل
-                          <img
-                            src="./images/mega-menu.css/arrow-menu.svg"
-                            alt=""
-                          />
-                        </a>
+                      <div class="content content-mobile">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات موبایل
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              انتخاب موبایل
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >گوشی های اپل
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">آیفون 16</a>
+                            <a href="#">آیفون 17</a>
+                            <a href="#" class="mega-title"
+                              >برندهای مختلف گوشی موبایل
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">گوشی سامسونگ</a>
+                            <a href="#">گوشی شیائومی</a>
+                            <a href="#">گوشی نوکیا</a>
+                            <a href="#">گوشی ریلمی</a>
+                            <a href="#">گوشی سایفر</a>
+                            <a href="#">گوشی آنر</a>
+                            <a href="#">گوشی ناتینگ فون</a>
+                            <a href="#">گوشی وکال</a>
+                            <a href="#">گوشی موتورولا</a>
+                            <a href="#">گوشی تی اس ال</a>
+                            <a href="#">گوشی هوآوی</a>
+                            <a href="#">گوشی داریا</a>
+                            <a href="#">گوشی گوگل پیکسل</a>
+                            <a href="#">گوشی تی اس اچ</a>
+                            <a href="#">گوشی جی ال ایکس</a>
+                            <a href="#">گوشی آلکاتل</a>
+                            <a href="#">گوشی ردتون</a>
+                            <a href="#">گوشی وان پلاس</a>
+                            <a href="#">گوشی جنرال لوکس</a>
+                            <a href="#">گوشی موبایل دوجی</a>
+                            <a href="#">گوشی HMD</a>
+                            <a href="#">گوشی پوکو</a>
+                            <a href="#" class="mega-title"
+                              >برندهای برتر
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">سامسونگ</a>
+                            <a href="#">اپل</a>
+                            <a href="#">آنر</a>
+                            <a href="#">هوآوی</a>
+                            <a href="#">ریلمی</a>
+                            <a href="#">سایفر</a>
+                            <a href="#">تی اس اچ</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >گوشی بر اساس قیمت
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">گوشی ارزان</a>
+                            <a href="#">گوشی موبایل قسطی</a>
+                            <a href="#">گوشی تا 2 میلیون تومان</a>
+                            <a href="#">گوشی تا 5 میلیون تومان</a>
+                            <a href="#">گوشی تا 7 میلیون تومان</a>
+                            <a href="#">گوشی تا 10 میلیون تومان</a>
+                            <a href="#">گوشی تا 12 میلیون تومان</a>
+                            <a href="#">گوشی تا 15 میلیون تومان</a>
+                            <a href="#">گوشی تا 20 میلیون تومان</a>
+                            <a href="#">گوشی تا 25 میلیون تومان</a>
+                            <a href="#">گوشی تا 30 میلیون تومان</a>
+                            <a href="#">گوشی تا 40 میلیون تومان</a>
+                            <a href="#">گوشی تا 50 میلیون تومان</a>
+                            <a href="#">گوشی تا 70 میلیون تومان</a>
+                            <a href="#" class="mega-title"
+                              >گوشی بر اساس عملکرد
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">گوشی گیمینگ</a>
+                            <a href="#">گوشی 5G</a>
+                            <a href="#">گوشی دکمه ای</a>
+                            <a href="#">گوشی ضدآب</a>
+                            <a href="#">گوشی مناسب عکاسی</a>
+                            <a href="#">گوشی میان رده</a>
+                            <a href="#">گوشی دانش آموزی</a>
+                            <a href="#">گوشی پرچمدار</a>
+                            <a href="#">گوشی دو سیم کارت</a>
+                            <a href="#" class="mega-title"
+                              >گوشی بر اساس حافظه داخلی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">گوشی 64 گیگابایت</a>
+                            <a href="#">گوشی 128 گیگابایت</a>
+                            <a href="#">گوشی 256 گیگابایت</a>
+                            <a href="#">گوشی 512 گیگابایت</a>
+                            <a href="#">گوشی یک ترابایت</a>
+                            <a href="#" class="mega-title"
+                              >رزولوشن عکس
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">گوشی با دوربین 48 مگاپیکسل</a>
+                            <a href="#">گوشی با دوربین 50 مگاپیکسل</a>
+                            <a href="#">گوشی با دوربین 64 مگاپیکسل</a>
+                            <a href="#">گوشی با دوربین 108 مگاپیکسل</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >لوازم جانبی موبایل
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">شارژر گوشی</a>
+                            <a href="#">شارژر وایرلس</a>
+                            <a href="#">شارژر تایپ سی</a>
+                            <a href="#">کابل شارژ تایپ سی</a>
+                            <a href="#">قاب گوشی</a>
+                            <a href="#">گلس گوشی</a>
+                            <a href="#">هولدر گوشی موبایل</a>
+                            <a href="#">شارژر فندکی</a>
+                            <a href="#">کابل شارژ و مبدل</a>
+                            <a href="#">پاور بانک</a>
+                            <a href="#">پاوراستیشن</a>
+                            <a href="#">مونوپاد</a>
+                            <a href="#">کاور ایرپاد</a>
+                            <a href="#">هولدر گردنی</a>
+                            <a href="#">فن خنک کننده گوشی</a>
+                            <a href="#">دسته بازی موبایل</a>
+                            <a href="#" class="mega-title"
+                              >قاب گوشی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">قاب گوشی سامسونگ</a>
+                            <a href="#">قاب گوشی آیفون</a>
+                            <a href="#">قاب گوشی شیائومی</a>
+                            <a href="#">قاب گوشی ریلمی</a>
+                            <a href="#">قاب گوشی پوکو</a>
+                            <a href="#">قاب گوشی وکال</a>
+                          </div>
+                          <!--column-4-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >داغ ترین ها
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">گوشی S26</a>
+                            <a href="#">آیفون 17</a>
+                            <a href="#">گوشی S25 سامسونگ</a>
+                            <a href="#">شیائومی نوت 15</a>
+                            <a href="#">شیائومی نوت 14</a>
+                            <a href="#">ردمی نوت 14 پرو</a>
+                            <a href="#">ردمی نوت 14 پروپلاس</a>
+                            <a href="#">گوشی سامسونگ سری s</a>
+                            <a href="#">گوشی سامسونگ سری a</a>
+                            <a href="#">گوشی سامسونگ سری m</a>
+                            <a href="#">گلکسی A57</a>
+                            <a href="#">شیائومی 15t</a>
+                            <a href="#">پوکو x7 پرو</a>
+                            <a href="#">گلکسی A26</a>
+                            <a href="#">گلکسی A56</a>
+                            <a href="#">شارژر آیفون 17</a>
+                            <a href="#">گلکسی S25 FE</a>
+                          </div>
+                        </div>
                       </div>
-                      <div class="mega-columns">
-                        <div class="column">
-                          <a href="#" class="mega-title">
-                            انتخاب موبایل
+                      <div class="content content-laptop">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات لپ تاپ
                             <img
                               src="./images/mega-menu.css/arrow-menu.svg"
                               alt=""
                             />
                           </a>
-                          <a href="#" class="mega-title"
-                            >گوشی های اپل
-                            <img
-                              src="./images/mega-menu.css/arrow-menu.svg"
-                              alt=""
-                            />
-                          </a>
-                          <a href="#">آیفون 16</a>
-                          <a href="#">آیفون 17</a>
-                          <a href="#" class="mega-title"
-                            >برندهای مختلف گوشی موبایل
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              انتخاب لپ تاپ
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >لپ تاپ های ایسوس
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لپ تاپ vivobook</a>
+                            <a href="#">لپ تاپ Zenbook</a>
+                            <a href="#">لپ تاپ TUF Gaming</a>
+                            <a href="#">لپ تاپ ROG</a>
 
-                            <img
-                              src="./images/mega-menu.css/arrow-menu.svg"
-                              alt=""
-                          /></a>
-                          <a href="#">گوشی سامسونگ</a>
-                          <a href="#">گوشی شیائومی</a>
-                          <a href="#">گوشی نوکیا</a>
-                          <a href="#">گوشی ریلمی</a>
-                          <a href="#">گوشی سایفر</a>
-                          <a href="#">گوشی آنر</a>
-                          <a href="#">گوشی ناتینگ فون</a>
-                          <a href="#">گوشی وکال</a>
-                          <a href="#">گوشی موتورولا</a>
-                          <a href="#">گوشی تی اس ال</a>
-                          <a href="#">گوشی هوآوی</a>
-                          <a href="#">گوشی داریا</a>
-                          <a href="#">گوشی گوگل پیکسل</a>
-                          <a href="#">گوشی تی اس اچ</a>
-                          <a href="#">گوشی جی ال ایکس</a>
-                          <a href="#">گوشی آلکاتل</a>
-                          <a href="#">گوشی ردتون</a>
-                          <a href="#">گوشی وان پلاس</a>
-                          <a href="#">گوشی جنرال لوکس</a>
-                          <a href="#">گوشی موبایل دوجی</a>
-                          <a href="#">گوشی HMD</a>
-                          <a href="#">گوشی پوکو</a>
-                          <a href="#" class="mega-title"
-                            >برندهای برتر
-                            <img
-                              src="./images/mega-menu.css/arrow-menu.svg"
-                              alt=""
-                            />
-                          </a>
-                          <a href="#">سامسونگ</a>
-                          <a href="#">اپل</a>
-                          <a href="#">آنر</a>
-                          <a href="#">هوآوی</a>
-                          <a href="#">ریلمی</a>
-                          <a href="#">سایفر</a>
-                          <a href="#">تی اس اچ</a>
+                            <a href="#" class="mega-title"
+                              >لپ تاپ لنوو
+
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">لپ تاپ v15</a>
+                            <a href="#">لپ تاپ ideapad 1</a>
+                            <a href="#">لپ تاپ thinkpad slim 3</a>
+                            <a href="#">لپ تاپ thinkpad</a>
+                            <a href="#">لپ تاپ LOQ</a>
+                            <a href="#" class="mega-title"
+                              >مک بوک
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">مک بوک نئو</a>
+                            <a href="#">مک بوک ایر m3</a>
+                            <a href="#">مک بوک ایر m4</a>
+                            <a href="#">مک بوک ایر m5</a>
+                            <a href="#">مک بوک پرو m3</a>
+                            <a href="#">مک بوک پرو m4</a>
+                            <a href="#">مک بوک پرو m5</a>
+                            <a href="#" class="mega-title"
+                              >لپ تاپ سرفیس
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">سرفیس لپ تاپ 5</a>
+                            <a href="#">سرفیس لپ تاپ 6</a>
+                            <a href="#">سرفیس لپ تاپ 7</a>
+                            <a href="#">سرفیس لپ تاپ استودیو 2</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >لپ تاپ گیمینگ
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لپ تاپ گیمینگ ایسوس</a>
+                            <a href="#">لپ تاپ گیمینگ لنوو</a>
+                            <a href="#">لپ تاپ گیمینگ acer</a>
+                            <a href="#">لپ تاپ گیمینگ hp</a>
+                            <a href="#">لپ تاپ گیمینگ msi</a>
+                            <a href="#" class="mega-title"
+                              >براساس مدل کارت گرافیک
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لپ تاپ rtx 2040</a>
+                            <a href="#">لپ تاپ rtx 2050</a>
+                            <a href="#">لپ تاپ rtx 4050</a>
+                            <a href="#">لپ تاپ rtx 4060</a>
+                            <a href="#">لپ تاپ rtx 4070</a>
+                            <a href="#">لپ تاپ rtx 3050</a>
+                            <a href="#">لپ تاپ rtx 5050</a>
+                            <a href="#">لپ تاپ rtx 5060</a>
+                            <a href="#">لپ تاپ rtx 5070</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >قیمت لپ تاپ
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لپ تاپ تا 70 میلیون</a>
+                            <a href="#">لپ تاپ تا 80 میلیون</a>
+                            <a href="#">لپ تاپ تا 90 میلیون</a>
+                            <a href="#">لپ تاپ تا 100 میلیون</a>
+                            <a href="#">لپ تاپ تا 120 میلیون</a>
+                            <a href="#">لپ تاپ تا 150 میلیون</a>
+                            <a href="#">لپ تاپ تا 200 میلیون</a>
+                            <a href="#" class="mega-title"
+                              >براساس کاربری
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لپ تاپ دانشجویی</a>
+                            <a href="#">لپ تاپ گیمینگ</a>
+                            <a href="#">لپ تاپ مالتی مدیا</a>
+                            <a href="#" class="mega-title"
+                              >لوازم جانبی لپ تاپ
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کول پد</a>
+                            <a href="#">گیف لپ تاپ</a>
+                            <a href="#">شارژر لپ تاپ</a>
+                          </div>
                         </div>
-                        <!--column-2-->
-                        <div class="column">
-                          <a href="#" class="mega-title"
-                            >گوشی بر اساس قیمت
+                      </div>
+                      <div class="content content-digital">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات کالای دیجیتال
                             <img
                               src="./images/mega-menu.css/arrow-menu.svg"
                               alt=""
                             />
                           </a>
-                          <a href="#">گوشی ارزان</a>
-                          <a href="#">گوشی موبایل قسطی</a>
-                          <a href="#">گوشی تا 2 میلیون تومان</a>
-                          <a href="#">گوشی تا 5 میلیون تومان</a>
-                          <a href="#">گوشی تا 7 میلیون تومان</a>
-                          <a href="#">گوشی تا 10 میلیون تومان</a>
-                          <a href="#">گوشی تا 12 میلیون تومان</a>
-                          <a href="#">گوشی تا 15 میلیون تومان</a>
-                          <a href="#">گوشی تا 20 میلیون تومان</a>
-                          <a href="#">گوشی تا 25 میلیون تومان</a>
-                          <a href="#">گوشی تا 30 میلیون تومان</a>
-                          <a href="#">گوشی تا 40 میلیون تومان</a>
-                          <a href="#">گوشی تا 50 میلیون تومان</a>
-                          <a href="#">گوشی تا 70 میلیون تومان</a>
-                          <a href="#" class="mega-title"
-                            >گوشی بر اساس عملکرد
-                            <img
-                              src="./images/mega-menu.css/arrow-menu.svg"
-                              alt=""
-                            />
-                          </a>
-                          <a href="#">گوشی گیمینگ</a>
-                          <a href="#">گوشی 5G</a>
-                          <a href="#">گوشی دکمه ای</a>
-                          <a href="#">گوشی ضدآب</a>
-                          <a href="#">گوشی مناسب عکاسی</a>
-                          <a href="#">گوشی میان رده</a>
-                          <a href="#">گوشی دانش آموزی</a>
-                          <a href="#">گوشی پرچمدار</a>
-                          <a href="#">گوشی دو سیم کارت</a>
-                          <a href="#" class="mega-title"
-                            >گوشی بر اساس حافظه داخلی
-                            <img
-                              src="./images/mega-menu.css/arrow-menu.svg"
-                              alt=""
-                          /></a>
-                          <a href="#">گوشی 64 گیگابایت</a>
-                          <a href="#">گوشی 128 گیگابایت</a>
-                          <a href="#">گوشی 256 گیگابایت</a>
-                          <a href="#">گوشی 512 گیگابایت</a>
-                          <a href="#">گوشی یک ترابایت</a>
-                          <a href="#" class="mega-title"
-                            >رزولوشن عکس
-                            <img
-                              src="./images/mega-menu.css/arrow-menu.svg"
-                              alt=""
-                            />
-                          </a>
-                          <a href="#">گوشی با دوربین 48 مگاپیکسل</a>
-                          <a href="#">گوشی با دوربین 50 مگاپیکسل</a>
-                          <a href="#">گوشی با دوربین 64 مگاپیکسل</a>
-                          <a href="#">گوشی با دوربین 108 مگاپیکسل</a>
                         </div>
-                        <!--column-3-->
-                        <div class="column">
-                          <a href="#" class="mega-title"
-                            >لوازم جانبی موبایل
-                            <img
-                              src="./images/mega-menu.css/arrow-menu.svg"
-                              alt=""
-                            />
-                          </a>
-                          <a href="#">شارژر گوشی</a>
-                          <a href="#">شارژر وایرلس</a>
-                          <a href="#">شارژر تایپ سی</a>
-                          <a href="#">کابل شارژ تایپ سی</a>
-                          <a href="#">قاب گوشی</a>
-                          <a href="#">گلس گوشی</a>
-                          <a href="#">هولدر گوشی موبایل</a>
-                          <a href="#">شارژر فندکی</a>
-                          <a href="#">کابل شارژ و مبدل</a>
-                          <a href="#">پاور بانک</a>
-                          <a href="#">پاوراستیشن</a>
-                          <a href="#">مونوپاد</a>
-                          <a href="#">کاور ایرپاد</a>
-                          <a href="#">هولدر گردنی</a>
-                          <a href="#">فن خنک کننده گوشی</a>
-                          <a href="#">دسته بازی موبایل</a>
-                          <a href="#" class="mega-title"
-                            >قاب گوشی
-                            <img
-                              src="./images/mega-menu.css/arrow-menu.svg"
-                              alt=""
-                            />
-                          </a>
-                          <a href="#">قاب گوشی سامسونگ</a>
-                          <a href="#">قاب گوشی آیفون</a>
-                          <a href="#">قاب گوشی شیائومی</a>
-                          <a href="#">قاب گوشی ریلمی</a>
-                          <a href="#">قاب گوشی پوکو</a>
-                          <a href="#">قاب گوشی وکال</a>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              کنسول بازی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">PS5</a>
+                            <a href="#">PS5 Slim</a>
+                            <a href="#">PS5 Pro</a>
+                            <a href="#">PS4</a>
+                            <a href="#">Xbox</a>
+                            <a href="#">Gamestick</a>
+                            <a href="#">Nintendo</a>
+                            <a href="#" class="mega-title"
+                              >گیمینگ
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">ست گیمینگ</a>
+                            <a href="#">دسته بازی</a>
+                            <a href="#">بازی PS5</a>
+                            <a href="#">بازی PS4</a>
+                            <a href="#">بازی ایکس باگس 360</a>
+                            <a href="#">بازی PC</a>
+                            <a href="#">دیسک های بازی</a>
+                            <a href="#">فرمان بازی</a>
+                            <a href="#">صندلی گینیمگ</a>
+
+                            <a href="#" class="mega-title"
+                              >تبلت
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">تبلت سامسونگ</a>
+                            <a href="#">تبلت شیائومی</a>
+                            <a href="#">تبلت ویندوزی</a>
+                            <a href="#" class="mega-title">
+                              سرفیس
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">سرفیس پرو 9</a>
+                            <a href="#">سرفیس پرو 8</a>
+                            <a href="#">سرفیس پرو 10</a>
+                            <a href="#">سرفیس پرو 11</a>
+                            <a href="#" class="mega-title">
+                              ایپد
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">ایپد ایر</a>
+                            <a href="#">ایپد پرو</a>
+                            <a href="#" class="mega-title">
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">all in one</a>
+                            <a href="#">کامپیوتر کامل</a>
+                            <a href="#">کامپیوتر گیمینگ</a>
+                            <a href="#">mini pc</a>
+                            <a href="#">قلم نوری</a>
+                            <a href="#">رم ریدر</a>
+                            <a href="#">ماوس پد</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >هدفون
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">هدفون بی سیم</a>
+                            <a href="#">هدفون گیمینگ</a>
+                            <a href="#">هدفون انکر</a>
+                            <a href="#">هدفون اپل</a>
+                            <a href="#">هدفون بیتس</a>
+                            <a href="#">هدفون سونی</a>
+                            <a href="#">هدفون سامسونگ</a>
+                            <a href="#">هدفون شیائومی</a>
+                            <a href="#">هدفون جی بی ال</a>
+                            <a href="#">هدفون ریزر</a>
+                            <a href="#" class="mega-title"
+                              >هدست
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >ساعت و مچ بند هوشمند
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">ساعت هوشمند سامسونگ</a>
+                            <a href="#">ساعت هوشمند شیائومی</a>
+                            <a href="#">ساعت هوشمند گارمین</a>
+                            <a href="#">بند ساعت هوشمند </a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >پرینتر
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">پرینتر سه بعدی</a>
+                            <a href="#">پرینتر حرارتی</a>
+                            <a href="#">پرینتر رنگی</a>
+                            <a href="#">پرینتر لیبل زن</a>
+                            <a href="#">پرینتر اچ پی</a
+                            ><a href="#" class="mega-title"
+                              >ماشین‌های اداری
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کابل پرینتر</a>
+                            <a href="#">کارتریج</a>
+                            <a href="#">اسکنر</a>
+                            <a href="#">تلفن</a>
+                            <a href="#">تلفن ویپ</a>
+                            <a href="#">بارکدخوان</a>
+                            <a href="#">ویدئو وال</a>
+                            <a href="#">ویدئو پروژکتور</a>
+                            <a href="#">دستگاه حضور و غیاب</a>
+                          </div>
+                          <!--column-4-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >قطعات کامپیوتر
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">پردازنده (cpu)</a>
+                            <a href="#">کارت گرافیک</a>
+                            <a href="#">مادربرد</a>
+                            <a href="#">رم کامپیوتر</a>
+                            <a href="#">کیس کامپیوتر</a>
+                            <a href="#">دانگل بلوتوث</a>
+                            <a href="#">خمیر سیلیکون</a>
+                            <a href="#" class="mega-title"
+                              >کیبورد
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کیبورد گیمینگ</a>
+                            <a href="#">کیبورد بی سیم</a>
+                            <a href="#">کیبورد مکانیکال</a>
+                            <a href="#" class="mega-title"
+                              >ماوس
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">ماوس گیمینگ</a>
+                            <a href="#">ماوس بی سیم</a>
+                          </div>
                         </div>
-                        <!--column-4-->
-                        <div class="column">
-                          <a href="#" class="mega-title"
-                            >داغ ترین ها
+                      </div>
+                      <div class="content content-khanegi">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات اوازم حانگی برقی
                             <img
                               src="./images/mega-menu.css/arrow-menu.svg"
                               alt=""
                             />
                           </a>
-                          <a href="#">گوشی S26</a>
-                          <a href="#">آیفون 17</a>
-                          <a href="#">گوشی S25 سامسونگ</a>
-                          <a href="#">شیائومی نوت 15</a>
-                          <a href="#">شیائومی نوت 14</a>
-                          <a href="#">ردمی نوت 14 پرو</a>
-                          <a href="#">ردمی نوت 14 پروپلاس</a>
-                          <a href="#">گوشی سامسونگ سری s</a>
-                          <a href="#">گوشی سامسونگ سری a</a>
-                          <a href="#">گوشی سامسونگ سری m</a>
-                          <a href="#">گلکسی A57</a>
-                          <a href="#">شیائومی 15t</a>
-                          <a href="#">پوکو x7 پرو</a>
-                          <a href="#">گلکسی A26</a>
-                          <a href="#">گلکسی A56</a>
-                          <a href="#">شارژر آیفون 17</a>
-                          <a href="#">گلکسی S25 FE</a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              جهیزیه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >تهویه،سرمایش و گرمایش
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">هیتر و بخاری برقی</a>
+                            <a href="#">شوفاژ برقی</a>
+                            <a href="#">رادیاتور</a>
+                            <a href="#">تصفیه کننده هوا</a>
+                            <a href="#">کولر سلولزی</a>
+                            <a href="#">کولر گازی</a>
+                            <a href="#">کولر آبی</a>
+                            <a href="#">پنکه</a>
+                            <a href="#">پنکخ شارژی</a>
+                            <a href="#">پکیج دیواری</a>
+                            <a href="#">آبگرمکن</a>
+                            <a href="#" class="mega-title"
+                              >ماشین لباسشویی
+
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">ماشین لباسشویی الجی</a>
+                            <a href="#">ماشین لباسشویی دوو</a>
+                            <a href="#">ماشین لباسشویی ایکس ویژن</a>
+                            <a href="#">ماشین لباسشویی پاکشوما</a>
+                            <a href="#">ماشین لباسشویی اسنوا</a>
+                            <a href="#">مینی واش</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >یخچال فریزر
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">یخچال فریزر ساید بای ساید</a>
+                            <a href="#">یخچال فریزر دوقلو</a>
+                            <a href="#">یخچال فریزر هتلی</a>
+                            <a href="#">یخچال فریزر بالاپایین</a>
+                            <a href="#" class="mega-title"
+                              >تلویزیون
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">تلویزیون سونی</a>
+                            <a href="#">تلویزیون هایسنس</a>
+                            <a href="#">تلویزیون جی پلاس</a>
+                            <a href="#">تلویزیونایکس ویژن</a>
+                            <a href="#">تلویزیون اندروید</a>
+                            <a href="#">تلویزیون 4K</a>
+                            <a href="#">تلویزیون گیمینگ</a>
+                            <a href="#">تلویزیون OLED</a>
+                            <a href="#">تلویزیون QLED</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >لوازم پخت و پز
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">تخم مرغ پز</a>
+                            <a href="#">سرخ کن بدون روغن</a>
+                            <a href="#">ماکروویو، ماکروفر</a>
+                            <a href="#">اجاق گاز</a>
+                            <a href="#">پلوپز</a>
+                            <a href="#">ساندویچ ساز و وافل ساز</a>
+                            <a href="#">آون توستر</a>
+                            <a href="#">گریل و باربیکیو</a>
+                            <a href="#">توستر</a>
+                            <a href="#" class="mega-title"
+                              >اتو
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">اتو پرس</a>
+                            <a href="#">اتو ایستاده</a>
+                            <a href="#">اتو بخار</a>
+                            <a href="#">بخارگر</a>
+                            <a href="#" class="mega-title"
+                              >نوشیدنی ساز
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">قهوه ساز</a>
+                            <a href="#">اسپرسو ساز</a>
+                            <a href="#">چای ساز</a>
+                            <a href="#">کتری برقی</a>
+                            <a href="#">سماور برقی</a>
+                            <a href="#">آبسردکن</a>
+                          </div>
+                          <!--column-4-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >خردکن و غذاساز
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">گوشت کوب برقی</a>
+                            <a href="#">غذاساز</a>
+                            <a href="#">همزن</a>
+                            <a href="#">مخلوط کن</a>
+                            <a href="#">چرخ گوشت</a>
+                            <a href="#">خردکن</a>
+                            <a href="#">آسیاب</a>
+                            <a href="#" class="mega-title"
+                              >بخارشور
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >تصفیه آب
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">فیلتر تصفیه آب</a>
+                            <a href="#" class="mega-title"
+                              >لوازم توکار
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">فر</a>
+                            <a href="#">هود</a>
+                            <a href="#">سینک ظرفشویی</a>
+                            <a href="#">گاز صفحه ای</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-mahali">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات بومی و محلی
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              مواد غذایی ارگانیک
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >خواربار محلی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">برنج محلی</a>
+                            <a href="#">روغن محلی</a>
+                            <a href="#" class="mega-title"
+                              >صبحانه محلی
+
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">عسل طبیعی</a>
+                            <a href="#">حلواشکری، ارده و کنجد سنتی</a
+                            ><a href="#" class="mega-title"
+                              >کیک و شیرینی خانگی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">شیرینی خانگی</a>
+                            <a href="#">کیک و کلوچه محلی</a>
+                            <a href="#" class="mega-title"
+                              >تنقلات خانگی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+
+                            <a href="#">لواشک، برگه و آلوچه خانگی</a>
+                            <a href="#">تخمه و مغز طعم‌دار محلی</a>
+                            <a href="#" class="mega-title"
+                              >لبنیات سنتی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کره گیاهی و حیوانی محلی</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >حشکبار و آحیل سنتی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">آجیل سنتی</a>
+                            <a href="#">خرمای محلی</a>
+                            <a href="#" class="mega-title"
+                              >غلات و حبوبات ارگانیک
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">غلات ارگانیک</a>
+                            <a href="#">حبوبات و سویا ارگانیک</a>
+                            <a href="#" class="mega-title"
+                              >ادویه و چاشنی ارگانیک
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">ادویه‌های ارگانیک</a>
+                            <a href="#">زعفران و زرشک ارگانیک</a>
+                            <a href="#" class="mega-title"
+                              >عطاری
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >عطاری
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+
+                            <a href="#" class="mega-title"
+                              >ترشیجات شور خانگی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+
+                            <a href="#" class="mega-title"
+                              >پک هدیه شب یلدا
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >دکوراتیو سنتی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لوستر و چراغ‌آویز دست ساز</a>
+                            <a href="#">مجسمه دست ساز</a>
+                            <a href="#">گلدان دست ساز</a>
+                            <a href="#">تابلو سنتی</a>
+                            <a href="#">ست هدیه سنتی</a>
+                            <a href="#">ست هفت سین سنتی</a>
+                            <a href="#">کاشی سنتی</a>
+                            <a href="#">آینه سنتی</a>
+                            <a href="#">محصولات بافتنی</a>
+                            <a href="#" class="mega-title"
+                              >خانه و کاشانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >نوشیدنی ارگانیک
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">چای ارگانیک ایرانی</a>
+                            <a href="#">دمنوش گیاهی</a>
+                          </div>
+                          <!--column-4-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >اکسسوری و زیورآلات دست ساز
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >پوشاک بومی و محلی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >قالی و قالیچه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >ظروف سنتی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">آجیل خوری سنتی</a>
+                            <a href="#">دیس و سینی سنتی</a>
+                            <a href="#">بشقاب سنتی</a>
+                            <a href="#">قندان سنتی</a>
+                            <a href="#">لیوان سنتی</a>
+                            <a href="#">دیگ و قابلمه سنتی</a>
+                            <a href="#" class="mega-title"
+                              >لوازم آشپزخانه سنتی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">سبد دستبافت</a>
+                            <a href="#">هاون سنتی</a>
+                            <a href="#">تخته سرو دست ساز</a>
+                            <a href="#" class="mega-title"
+                              >رومیزی، رانر و زیربشقابی سنتی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-khane">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات خانه و آشپزخانه
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              ظروف پخت و پز
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">قابلمه و تابه</a>
+                            <a href="#">زودپز</a>
+                            <a href="#">سرویس پخت و پز</a>
+                            <a href="#" class="mega-title"
+                              >ابزار آشپزی
+
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">سرویس کفگیر وملاقه</a>
+                            <a href="#">چاقو</a>
+                            <a href="#">تخته گوشت</a>
+                            <a href="#">ظرف و قالب یخ</a>
+                            <a href="#">قیف</a>
+                            <a href="#">صافی</a>
+                            <a href="#">گردوشکن</a>
+                            <a href="#">فندک آشپزخانه</a>
+                            <a href="#">ترازوی آشپزخانه</a>
+                            <a href="#" class="mega-title"
+                              >تهیه و سرو چای و قهوه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">قهوه ساز و دمنوش ساز</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >مبل
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">مبل راحتی</a>
+                            <a href="#">مبل تختخواب شو</a>
+                            <a href="#">مبل بادی</a>
+                            <a href="#">مبل تدی</a>
+                            <a href="#">مبل ال</a>
+                            <a href="#">مبل مینیمال</a>
+                            <a href="#">مبل چستر</a>
+                            <a href="#">مبل اداری و صنولی انتظار</a>
+                            <a href="#">پاف</a>
+                            <a href="#">صندلی کودک</a>
+                            <a href="#">کاور مبل</a>
+                            <a href="#" class="mega-title"
+                              >دکوراسیون خانگی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کتابخانه</a>
+                            <a href="#">شلف وطبقه</a>
+                            <a href="#">کنسول</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >حمام
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">حوله</a>
+                            <a href="#">دمپایی</a>
+                            <a href="#">لیف</a>
+                            <a href="#">پرده حمام</a>
+                            <a href="#">وان و جکوزی</a>
+                            <a href="#">ابزار حمام</a>
+                            <a href="#" class="mega-title"
+                              >سرویس بهداشتی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">توالت فرنگی</a>
+                            <a href="#">ست سرویس بهداشتی</a>
+                            <a href="#">روشویی</a>
+                            <a href="#">جامسواکی</a>
+                            <a href="#">آینه سرویس بهداشتی</a>
+                            <a href="#">فلاش تانک</a>
+                            <a href="#">مخزن مایع دستشویی</a>
+                            <a href="#">پایه رول دستمال</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-behdashti">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات آرایشی بهداشتی
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              مراقبت پوست
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">ضدآفتاب</a>
+                            <a href="#">کرم مرطوب کننده و نرم کننده</a>
+                            <a href="#">ماسک صورت و بدن</a>
+                            <a href="#">پاک کننده صورت</a>
+                            <a href="#">تونر</a>
+                            <a href="#">مراقبت بدن</a>
+                            <a href="#">ابزار مراقبت پوست</a>
+                            <a href="#" class="mega-title"
+                              >لوازم آرایشی
+
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">بهداشت و زیبایی ناخن</a>
+                            <a href="#">ابزار آرایشی</a>
+                            <a href="#" class="mega-title"
+                              >آرایش صورت
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کرم پودر</a>
+                            <a href="#">رژگونه</a>
+                            <a href="#">کانسیلر</a>
+                            <a href="#">کانتور</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >مراقبت و زیبایی مو
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">مراقبت مو</a>
+                            <a href="#">آرایش مو</a>
+                            <a href="#">نرم کننده مو</a>
+                            <a href="#">شامپو مو</a>
+                            <a href="#" class="mega-title"
+                              >لوازم بهداشتی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">مراقبت دهان و دندان</a>
+                            <a href="#">مسواک</a>
+                            <a href="#">خمیردندان</a>
+                            <a href="#">دئودورانت و ضد تعریق</a>
+                            <a href="#">محصولات بهداشت جنسی</a>
+                            <a href="#">کاندوم</a>
+                            <a href="#">بهداشت و مراقبت شخصی</a>
+                            <a href="#">نوار بهداشتی</a>
+                            <a href="#">کاپ قاعدگی</a>
+                            <a href="#">لوازم اصلاح مو</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >عطر و ادکلن
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">عطر و ادکلن زنانه</a>
+                            <a href="#">عطر و ادکلن مردانه</a>
+                            <a href="#">بادی اسپلش</a>
+                            <a href="#">عطر جیبی</a>
+                            <a href="#" class="mega-title"
+                              >لوازم شخصی برقی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">سشوار</a>
+                            <a href="#">اتو وحالت دهنده‌ی مو</a>
+                            <a href="#">اصلاح موی صورت</a>
+                            <a href="#">اصلاح موی سر</a>
+                            <a href="#">لوازم جانبی ماشین اصلاح</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-pushak">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات مد و پوشاک
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              پوشاک مردانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >پالتو، بارانیو کاپشن مردانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کاپشن مردانه</a>
+                            <a href="#">پالتو مردانه</a>
+                            <a href="#">کت چرم مردانه</a>
+                            <a href="#">پافر مردانه</a>
+                            <a href="#" class="mega-title"
+                              >لباس مردانه
+
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">هودی مردانه</a>
+                            <a href="#">سویشرت مردانه</a>
+                            <a href="#">ژاکت و پلیور مردانه</a>
+                            <a href="#">پولوشرت مردانه</a>
+                            <a href="#">شلوار مردانه</a>
+                            <a href="#">لباس زیر مردانه</a>
+                            <a href="#">تیشرت مردانه</a>
+                            <a href="#">پیراهن مردانه</a>
+                            <a href="#" class="mega-title"
+                              >کت، جلیقه و ست رسمی مردانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >پوشاک زنانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              پالتو، بارانی و کاپشن زنانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کاپشن زنانه</a>
+                            <a href="#">پالتو زنانه</a>
+                            <a href="#">کت چرم زنانه</a>
+                            <a href="#">بارانی زنانه</a>
+                            <a href="#">پافر زنانه</a>
+                            <a href="#" class="mega-title"
+                              >لباس زنانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">هودی زنانه</a>
+                            <a href="#">سویشرت زنانه</a>
+                            <a href="#">بافت و پلیور و ژاکت زنانه</a>
+                            <a href="#">مانتو پانچو رویه</a>
+                            <a href="#">بلوز و شومیز زنانه</a>
+                            <a href="#">لباس راحتی زنانه</a>
+                            <a href="#">تاپ و نیم تنه زنانه</a>
+                            <a href="#">تیشرت زنانه</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >پوشاک بچگانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              ست راحتی و خواب بچگانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              کیف و کوله کفش بچگانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              لباس پسرانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">تیشرت پسرانه</a>
+                            <a href="#" class="mega-title">
+                              پوشاک دخترانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              پوشاک نوزادی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">ست لباس راحتی نوزاد</a>
+                            <a href="#">بادی نوزادی</a>
+                            <a href="#">ست نوزاد</a>
+                            <a href="#">سرهمی نوزاد</a>
+                          </div>
+                          <!--column-4-->
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              انبارتکانی پوشاک<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              ال سی وایکیکی<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              کاسیو<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              نوین چرم<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              وان بای وان<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              کروم<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              توریور<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              نوزده نود و یک<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              هامتو<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              نوین چرم<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              اسمارا<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              سرژه<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-gold">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات طلا و نقره
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              منتخب های امروز طلا
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >شمش طلا
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              سکه طلا
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">ربع سکه</a>
+                            <a href="#">نیم سکه</a>
+                            <a href="#">سکه تمام</a>
+                            <a href="#">سکه پارسیان</a>
+                            <a href="#"> سکه قسطی</a>
+                            <a href="#" class="mega-title"
+                              >طلای آب شده
+
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              گردنبند طلا زنانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">گردنبند مرواریدی زنانه</a>
+                            <a href="#">گردنبند چشم نظر</a>
+                            <a href="#">گردنبند ونکلیف</a>
+                            <a href="#">گردنبند اسم و حروف</a>
+                            <a href="#">گردنبند کارتیر</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >شمش نقره
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              اکسسوری نقره
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">آویز ساعت نقره</a>
+                            <a href="#" class="mega-title">
+                              گل سینه طلا زنانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              زیورآلات نقره زنانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">انگشتر نقره زنانه</a>
+                            <a href="#">دستبند نقره زنانه</a>
+                            <a href="#">گردنبند نقره زنانه</a>
+                            <a href="#">زنجیر نقره زنانه</a>
+                            <a href="#">گوشواره نقره زنانه</a>
+                            <a href="#">پابند نقره زنانه</a>
+                            <a href="#">پیرسینگ نقره زنانه</a>
+                            <a href="#" class="mega-title"
+                              >زیورآلات نقره مردانه
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">انگشتر نقره مردانه</a>
+                            <a href="#">دستبند نقره مردانه</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              اکسیراز<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title"
+                              >گالری روبی آرت (Ruby Art)<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title"
+                              >الی گالری
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              سنجاق<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title"
+                              >ماوی گالری (Mavi gallery)
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              مستجابی (Mostajabi)
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              کیا گالری<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              مایا ماهک (Maya mahak)
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              رادا<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              تاج (Taj)
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              کیا ویژن<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              درریس<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-car">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات خودرو و موتورسیکلت
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              موتورسیکلت
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >خودرو
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >لوازم مصرفی خودرو
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">روغن موتور</a>
+                            <a href="#">فیلترها</a>
+                            <a href="#">قطعات سرویسی</a>
+                            <a href="#">روغن گیربکس</a>
+                            <a href="#">روغن هیدرولیک</a>
+                            <a href="#">ضدیخ و آب رادیاتور</a>
+                            <a href="#">باتری</a>
+                            <a href="#">لاستیک</a>
+                            <a href="#">مکمل سوخت و روغن</a>
+                            <a href="#">واکس و پولیش</a>
+                            <a href="#">لوازم نظافت خودرو</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >لوازم یدکی خودرو
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لوازم بدنه</a>
+                            <a href="#">لوازم جلوبندی و تعلیق</a>
+                            <a href="#">لوازم الکترونیکی</a>
+                            <a href="#">لوازم مکانیکی</a>
+                            <a href="#">چراغ</a>
+                            <a href="#">آینه جانبی</a>
+                            <a href="#" class="mega-title"
+                              >لوازم صوتی و تصویری
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">دوربین ثبت وقایع خودرو</a>
+                            <a href="#">دستگاه پخش</a>
+                            <a href="#">بلندگو</a>
+                            <a href="#">آمپلی فایر</a>
+                            <a href="#">اف ام پلیر</a>
+                            <a href="#">مسیریاب خودرو</a>
+                            <a href="#">لوازم جانبی صوتی و تصویری</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >لوازم جانبی خودرو
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کفپوش</a>
+                            <a href="#">دوربین ثبت وقایع</a>
+                            <a href="#">روکش صندلی</a>
+                            <a href="#">زنجیر چرخ</a>
+                            <a href="#">آفتابگیر خودرو</a>
+                            <a href="#">تجهیزات نظم دهنده</a>
+                            <a href="#">هدلایت</a>
+                            <a href="#">کفپوش صندوق خودرو</a>
+                            <a href="#">چادر خودرو</a>
+                            <a href="#">عایق کاپوت، صندوق و دربها</a>
+                            <a href="#">تجهیزات راحتی سرنشین</a>
+                            <a href="#">لوازم ضد سرقت</a>
+                            <a href="#">پا رکابی</a>
+                            <a href="#">اسپویلر و دیفیوزر</a>
+                            <a href="#">جاسوئیچی</a>
+                          </div>
+                          <!--column-4-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >لوازم موتور سیکلت
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لوازم مصرفی</a>
+                            <a href="#">لوازم یدکی</a>
+                            <a href="#">لوازم جانبی</a>
+                            <a href="#">لوازم ضد سرقت</a>
+                            <a href="#" class="mega-title"
+                              >لوازم بر اساس نوع خودرو
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">206-207</a>
+                            <a href="#">L90-ساندرو</a>
+                            <a href="#">پرشیا-پژو405</a>
+                            <a href="#">پراید-تیبا</a>
+                            <a href="#">سمند-دنا</a>
+                            <a href="#">زانتیا-برلیانس</a>
+                            <a href="#">کوئیک-ساینا</a>
+                            <a href="#">MVM-فونیکس</a>
+                            <a href="#">جک-لیفان</a>
+                            <a href="#">هیوندای-کیا</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-pet">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات پت شاپ
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              بهداشت، مراقبت و نگهداری حیوانات
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >آموزش، سرگرمی و اکسسوری حیوانات
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              لانه و آشیانه نگهدای حیوانات
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              غذا و مکمل حیوانات
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-pezeshki">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات سلامت و پزشکی
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              تجهیزات پزشکی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">فشارسنج</a>
+                            <a href="#">دماسنج محیطی</a>
+                            <a href="#">ترازو</a>
+                            <a href="#">تب سنج و دماسنج</a>
+                            <a href="#">رطوبت گیر</a>
+                            <a href="#">پد و کیسه آب گرم</a>
+                            <a href="#">تشک و پتوی برقی</a>
+                            <a href="#">ماسک تنفسی</a>
+                            <a href="#">کیسه نمک-درد</a>
+                            <a href="#">تجهیزات پزشکی حرفه‌ای</a>
+                            <a href="#">لوازم پزشک</a>
+                            <a href="#" class="mega-title">
+                              تجهیزات پزشکی تنفسی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">دستگاه بخور رطوبت ساز</a>
+                            <a href="#">دستگاه بخور سرد</a>
+                            <a href="#">دستگاه بخور گرم</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >مکمل غذایی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">مکمل کمک درمانی</a>
+                            <a href="#">مکمل کودک و نوزاد</a>
+                            <a href="#">اعصاب و روان</a>
+                            <a href="#">بینایی</a>
+                            <a href="#">بهداشت و سلامت جنسی</a>
+                            <a href="#">پوست مو و ناخن</a>
+                            <a href="#">ترک اعتیاد</a>
+                            <a href="#">تسکین درد</a>
+                            <a href="#">سیستم ایمنی</a>
+                            <a href="#">سرماخوردگی و آنفولانزا</a>
+                            <a href="#">سیستم تنفسی و آلرژی</a>
+                            <a href="#">سیستم گوارشی</a>
+                            <a href="#">قلب و عروق</a>
+                            <a href="#">کلیه و مجاری ادرار</a>
+                            <a href="#">کنترل قند خون</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >کنترل دیابت
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">دستگاه تست قند خوِِن</a>
+                            <a href="#">نوار تست قند خوِِن</a>
+                            <a href="#">سوزن تست قند خوِِن</a>
+                            <a href="#">سرنگ انسولین</a>
+                            <a href="#">کیف خنگ نگه دارنده انسولین</a>
+                            <a href="#" class="mega-title">
+                              لوازم پزشکی مصرفی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">سوند وکنترهای ادراری</a>
+                            <a href="#">تزریقات</a>
+                            <a href="#">پانسمان</a>
+                            <a href="#">چسب پانسمان</a>
+                            <a href="#">محصولات سلولزی طبی</a>
+                            <a href="#">کیت تشخیص</a>
+                            <a href="#">البسه بیمارستانی</a>
+                            <a href="#">دستکش‌های طبی</a>
+                            <a href="#">ضد عفونی کننده زخم</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-tools">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات ابزارآلات و تجهیزات
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              ابزار برقی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">دریل</a>
+                            <a href="#">پیچ گوشتی و دریل شارژی</a>
+                            <a href="#">آچار ضربه‌ای</a>
+                            <a href="#">فرز و سنگ رومیزی</a>
+                            <a href="#">موتوربرق</a>
+                            <a href="#">مکنده-دمنده</a>
+                            <a href="#">جاروبرقی صنعتی</a>
+                            <a href="#">کارواش</a>
+                            <a href="#">دستگاه جوش</a>
+                            <a href="#">هویه</a>
+                            <a href="#">ابزار برش و تراشکاری</a>
+                            <a href="#">کمپرسور هوا</a>
+                            <a href="#">مولتی متر</a>
+                            <a href="#">لوازم جانبی و یدکی ابزار برقی</a>
+                            <a href="#">اره زنجیری</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >ابزار غیر برقی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">ابزار دستی</a>
+                            <a href="#">مجموعه ابزار</a>
+                            <a href="#">نردبان</a>
+                            <a href="#">پیچ گوشتی و فازمتر</a>
+                            <a href="#">نظم دهنده ابزار</a>
+                            <a href="#">متر، تراز، اندازه گیری دقیق</a>
+                            <a href="#">لوازم روانکاری</a>
+                            <a href="#">چسب صنعتی</a>
+                            <a href="#">پیچ و مهره، رول پلاک، میخ و پرچ</a>
+                            <a href="#">مته و سری</a>
+                            <a href="#">اره</a>
+                            <a href="#">لوازم بسته بندی</a>
+                            <a href="#">انواع آچار و انبر</a>
+                            <a href="#">آچار فرانسه</a>
+                            <a href="#">آچار شلاقی</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >لوازم الکتریکی و یراق‌آلات
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">رنگ</a>
+                            <a href="#">لوازم الکتریکی</a>
+                            <a href="#">مصالح ساختمانی</a>
+                            <a href="#">زنگ و در بازکن</a>
+                            <a href="#" class="mega-title">
+                              لوازم باغبانی و کشاورزی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">ابزار باغبانی</a>
+                            <a href="#">ادوات کشاورزی</a>
+                            <a href="#">بذر و تخم گیاهان</a>
+                            <a href="#">خاک، کود و آفت کش</a>
+                            <a href="#">کاشت و پرورش گیاه</a>
+
+                            <a href="#" class="mega-title"
+                              >تجهیزات ایمنی و کار
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">ماسک تنفسی</a>
+                            <a href="#">لوازم آتش نشانی</a>
+                            <a href="#">لوازم ایمنی و کار</a>
+                            <a href="#">جعبه کمک های اولیه</a>
+                          </div>
+                          <!--column-4-->
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              حفاظتی و امنیتی<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">گاوصندوق</a>
+                            <a href="#">قفل</a>
+                            <a href="#" class="mega-title">
+                              دستگاه های حمل و بالابر صنعتی<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">قطعات یدکی ماشین آلات صنعتی</a>
+                            <a href="#">تجهیزات کارگاهی</a>
+                            <a href="#" class="mega-title">
+                              مخزن آب<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#" class="mega-title">
+                              شیرآلات<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">ست شیرآلات</a>
+                            <a href="#">شیر ظرفشویی</a>
+                            <a href="#">شیر روشویی</a>
+                            <a href="#">شیرآلات حمام</a>
+                            <a href="#">شیر توالت</a>
+                            <a href="#">اتصالات جانبی</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-book">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات کتاب و هنر
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              کتاب و مجله
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کتاب چاپی</a>
+                            <a href="#">مجلات خارجی و داخلی</a>
+                            <a href="#" class="mega-title">
+                              محبوب ترین آثار
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کتاب های سعدی</a>
+                            <a href="#">کتاب های حافظ</a>
+                            <a href="#">کتاب های خیام</a>
+                            <a href="#">کتاب های فردوسی</a>
+                            <a href="#">کتاب های مولانا</a>
+                            <a href="#">کتاب های شهریار</a>
+                            <a href="#">کتاب های فروغ فرخزاد</a>
+                            <a href="#">کتاب های هوشنگ ابتهاج</a>
+                            <a href="#">کتاب های سهراب سپهری</a>
+                            <a href="#">کتاب های سیمین دانشور</a>
+                            <a href="#">کتاب های جورج اورول</a>
+                            <a href="#">کتاب های هری پاتر</a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >لوازم تحریر
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لوازم اداری و اقلام مصرفی</a>
+                            <a href="#">کیف، کوله پشتی و جامدادی</a>
+                            <a href="#">چراغ مطالعه</a>
+                            <a href="#">کاغذ کادو، پاکت و کارت هدیه</a>
+                            <a href="#">نوشت افزار</a>
+                            <a href="#">دفتر و کاغذ</a>
+                            <a href="#">خودکار و روان نویس</a>
+                            <a href="#">ابزار نقاشی و رنگ آمیزی</a>
+                            <a href="#">میز تحریر</a>
+                            <a href="#">آلبوم عکس</a>
+                            <a href="#">کاغذ چاپ و پرینتر</a>
+                            <a href="#">مداد و مدادرنگی</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >آلات موسیقی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">لوازم جانبی آلات موسیقی</a>
+                            <a href="#">گیتار</a>
+                            <a href="#">کیبورد و ارگ</a>
+                            <a href="#">پیانو دیجیتال</a>
+                            <a href="#">درام، پرکاشن، دف</a>
+                            <a href="#">تجهیزات استودیویی</a>
+                            <a href="#">ویولن</a>
+                            <a href="#">سازهای ایرانی</a>
+                          </div>
+                          <!--column-4-->
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              صنایع دستی<img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                            /></a>
+                            <a href="#">کالاهای مس</a>
+                            <a href="#">سفال، سرامیک و چینی</a>
+                            <a href="#">کیف چرمی</a>
+                            <a href="#">ترمه، قلمکار و دستبافت</a>
+                            <a href="#">خاتم، منبت، حصیری و چوبی</a>
+                            <a href="#">تابلو و ساعت</a>
+                            <a href="#">میناکاری</a>
+                            <a href="#">فیروزه کوبی</a>
+                            <a href="#">سوزن دوزی</a>
+                            <a href="#">محصولات استخوانی</a>
+                            <a href="#">جعبه و دست سازه های هنری</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content content-gift">
+                        <div class="mega-all">
+                          <a href="#" class="blue"
+                            >همه محصولات کارت هدیه و گیفت کارت
+                            <img
+                              src="./images/mega-menu.css/arrow-menu.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                        <div class="mega-columns">
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              کارت هدیه فیزیکی دیجی کالا
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+
+                            <a href="#" class="mega-title">
+                              کارت هدیه براساس مناسبت
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کارت هدیه تولد</a>
+                            <a href="#">کارت هدیه روز مادر</a>
+                            <a href="#">کارت هدیه روز معلم</a>
+                            <a href="#">کارت هدیه سالگرد</a>
+                            <a href="#">کارت هدیه تشکر</a>
+                            <a href="#">کارت هدیه دوستی</a>
+                            <a href="#">کارت هدیه ازدواج</a>
+                            <a href="#">کارت هدیه نوزاد</a>
+                            <a href="#">کارت هدیه خانه نو</a>
+                            <a href="#">کارت هدیه فارغ‌التحصیلی</a>
+                            <a href="#">کارت هدیه عید نوروز</a>
+                            <a href="#">کارت هدیه شب یلدا</a>
+                            <a href="#" class="mega-title">
+                              کارت هدیه بر اساس قیمت
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                          </div>
+                          <!--column-2-->
+                          <div class="column">
+                            <a href="#" class="mega-title">
+                              کارت هدیه الکترونیک دیجی کالا
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title">
+                              کارت هدیه الکترونیکی براساس مناسبت
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#">کارت هدیه الکترونیکی تولد</a>
+                            <a href="#">کارت هدیه الکترونیکی عذرخواهی</a>
+                            <a href="#">کارت هدیه الکترونیکی روز معلم</a>
+                            <a href="#">کارت هدیه الکترونیکی سالگرد</a>
+                            <a href="#">کارت هدیه الکترونیکی تشکر</a>
+                            <a href="#">کارت هدیه الکترونیکی دوستی</a>
+                            <a href="#">کارت هدیه الکترونیکی ازدواج</a>
+                            <a href="#">کارت هدیه الکترونیکی نوزاد</a>
+                            <a href="#">کارت هدیه الکترونیکی خانه نو</a>
+                            <a href="#">کارت هدیه الکترونیکی فارغ‌التحصیلی</a>
+                            <a href="#">کارت هدیه الکترونیکی عید نوروز</a>
+                          </div>
+                          <!--column-3-->
+                          <div class="column">
+                            <a href="#" class="mega-title"
+                              >کارت هدیه سازمانی
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                            <a href="#" class="mega-title"
+                              >کارت هدیه مد و پوشاک
+                              <img
+                                src="./images/mega-menu.css/arrow-menu.svg"
+                                alt=""
+                              />
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -420,6 +2332,12 @@
                   <a class="navbar-link" href="">
                     <img src="./images/header/t-shirt.svg" alt="" />
                     دیجی استایل</a
+                  >
+                </div>
+                <div class="navbar-item">
+                  <a class="navbar-link" href="./pet.html">
+                    <img src="./images/header/pet.svg" alt="" />
+                    پت شاپ</a
                   >
                 </div>
                 <div class="navbar-item">
@@ -2683,7 +4601,7 @@
         <div class="footer-top">
           <div class="footer-top-right-top">
             <img class="logo" src="./images/header/logo.svg" alt="" />
-            <a href="#"
+            <a href="#top"
               >بازگشت به بالا
               <img src="./images/footer/arrow-top.svg" alt="" />
             </a>
@@ -3018,5 +4936,28 @@
         },
       });
     </script>
+    <div id="map" class="map">
+      <div class="map-box">
+        <div class="map-header">
+          <button class="close-map" onclick="location.hash = ''">x</button>
+          <div class="map-title">
+            <h4>انتخاب موقیعت مکانی</h4>
+            <p>برای تحویل به موقع سفارش، موقعیت را دقیق انتخاب کنید</p>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6475.823076124082!2d51.5689656!3d35.752979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e1d0079bbbda3%3A0xbaf3cc414b9b1cc0!2sRaspina%20Residential%20Tower!5e0!3m2!1sen!2s!4v1793462171117!5m2!1sen!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+        <button class="submit-location">ثبت موقعیت مکانی</button>
+      </div>
+    </div>
   </body>
 </html>

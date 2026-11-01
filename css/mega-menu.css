@@ -48,9 +48,9 @@
               padding: 12px 18px;
               text-decoration: none;
               font-family: var(--font-family-2);
-              color: #444;
-              font-size: 14px;
-              transition: 200ms;
+              color: #333333;
+              font-size: 13px;
+              transition: 300ms;
               img {
                 position: relative;
                 top: 8px;
@@ -68,11 +68,11 @@
         overflow-y: auto;
         font-family: var(--font-family-2);
         .mega-all {
-          margin-bottom: 18px;
+          margin-bottom: 28px;
           a.blue {
             text-decoration: none;
             color: #0196f5;
-            font-size: 12px;
+            font-size: 11px;
             font-weight: 500;
             img {
               position: relative;
@@ -105,12 +105,12 @@
               position: relative;
               display: block;
               font-weight: 700;
-              font-size: 14px;
-              color: #23254e;
+              font-size: 13px;
+              text-wrap: nowrap;
+              color: #333333;
               margin-bottom: 12px;
               padding-right: 12px;
             }
-
             a.mega-title::before {
               content: "";
               position: absolute;
@@ -141,17 +141,109 @@
 .navbar-item.has-mega:hover .mega-menu {
   display: grid;
 }
-/* ===================== تعویض محتوای مگامنو ===================== */
-
-.mega-content {
+.mega-left .content {
   display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: calc(100% - 230px);
-  height: 100%;
-  background-color: #fff;
-  padding: 20px 25px;
-  overflow-y: auto;
-  box-sizing: border-box;
+}
+.mega-left .content-mobile {
+  display: block;
+}
+.mega-menu:has(.cat-mobile:hover) .content-mobile {
+  display: block;
+}
+.mega-menu:has(.cat-laptop:hover) .content-laptop {
+  display: block;
+}
+.mega-menu:has(.cat-digital:hover) .content-digital {
+  display: block;
+}
+.mega-menu:has(.cat-khanegi:hover) .content-khanegi {
+  display: block;
+}
+.mega-menu:has(.cat-mahali:hover) .content-mahali {
+  display: block;
+}
+.mega-menu:has(.cat-khane:hover) .content-khane {
+  display: block;
+}
+.mega-menu:has(.cat-behdashti:hover) .content-behdashti {
+  display: block;
+}
+.mega-menu:has(.cat-pushak:hover) .content-pushak {
+  display: block;
+}
+.mega-menu:has(.cat-gold:hover) .content-gold {
+  display: block;
+}
+.mega-menu:has(.cat-car:hover) .content-car {
+  display: block;
+}
+.mega-menu:has(.cat-pezeshki:hover) .content-pezeshki {
+  display: block;
+}
+.mega-menu:has(.cat-tools:hover) .content-tools {
+  display: block;
+}
+.mega-menu:has(.cat-book:hover) .content-book {
+  display: block;
+}
+.mega-menu:has(.cat-safar:hover) .content-safar {
+  display: block;
+}
+.mega-menu:has(.cat-gift:hover) .content-gift {
+  display: block;
+}
+.mega-menu:has(.cat-super:hover) .content-super {
+  display: block;
+}
+.mega-menu:has(.cat-baby:hover) .content-baby {
+  display: block;
+}
+.mega-menu:has(.cat-pet:hover) .content-pet {
+  display: block;
+}
+.mega-menu:has(.cat-laptop:hover) .content-mobile,
+.mega-menu:has(.cat-digital:hover) .content-mobile,
+.mega-menu:has(.cat-khanegi:hover) .content-mobile,
+.mega-menu:has(.cat-mahali:hover) .content-mobile,
+.mega-menu:has(.cat-khane:hover) .content-mobile,
+.mega-menu:has(.cat-behdashti:hover) .content-mobile,
+.mega-menu:has(.cat-pushak:hover) .content-mobile,
+.mega-menu:has(.cat-gold:hover) .content-mobile,
+.mega-menu:has(.cat-car:hover) .content-mobile,
+.mega-menu:has(.cat-pezeshki:hover) .content-mobile,
+.mega-menu:has(.cat-tools:hover) .content-mobile,
+.mega-menu:has(.cat-book:hover) .content-mobile,
+.mega-menu:has(.cat-safar:hover) .content-mobile,
+.mega-menu:has(.cat-gift:hover) .content-mobile,
+.mega-menu:has(.cat-super:hover) .content-mobile,
+.mega-menu:has(.cat-baby:hover) .content-mobile,
+.mega-menu:has(.cat-pet:hover) .content-mobile {
+  display: none;
+}
+.mega-menu {
+  width: 1150px;
+  transition: width 0.25s ease;
+  overflow: hidden;
+}
+.mega-menu:has(.cat-laptop:hover),
+.mega-menu:has(.cat-mobile:hover),
+.mega-menu:has(.cat-pushak:hover),
+.mega-menu:has(.cat-behdashti:hover),
+.mega-menu:has(.cat-khane:hover),
+.mega-menu:has(.cat-mahali:hover),
+.mega-menu:has(.cat-pezeshki:hover),
+.mega-menu:has(.cat-tools:hover),
+.mega-menu:has(.cat-digital:hover),
+.mega-menu:has(.cat-book:hover),
+.mega-menu:has(.cat-safar:hover),
+.mega-menu:has(.cat-gift:hover),
+.mega-menu:has(.cat-gold:hover),
+.mega-menu:has(.cat-khanegi:hover),
+.mega-menu:has(.cat-car:hover) {
+  width: 1150px !important;
+}
+.mega-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
 }
