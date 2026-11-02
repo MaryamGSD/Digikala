@@ -247,3 +247,20 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
+.navbar-item{
+  position: relative;
+}
+.navbar-link::after{
+  content: "";
+  position: absolute;
+  background-color: #ef394e;
+  transition: width 0.4s ease;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 1px;
+}
+.navbar-item:hover .navbar-link::after,
+.navbar-item.active .navbar-link::after{
+  width: 100%;
+}
