@@ -1,0 +1,34 @@
+.info{
+    padding-right: 10px;
+    .info-sale{
+        font-family: var(--font-family-2);
+        .info-sale-top{
+            font-size: 15px;
+            font-weight: 500;
+            color: #62666D;
+            margin-bottom: 10px;
+        }
+        .info-sale-center{
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -ms-box-orient: vertical;
+          -moz-box-orient: vertical;
+             box-orient: vertical;
+          -webkit-line-clamp: 3;
+          line-clamp: 2;
+          overflow: hidden;
+          p{
+            font-size: 14px;
+            color: #B0B9BB;
+          }
+        }
+        .info-sale-bottom{
+            margin-top: 10px;
+                        margin-bottom: 20px;
+            a{
+                text-decoration: none;
+                color: #2C8CDF;
+            }
+        }
+    }
+}

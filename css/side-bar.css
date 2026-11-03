@@ -1,0 +1,111 @@
+.all-incre {
+  h2 {
+    width: 100%;
+    font-family: var(--font-family-2);
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+.incredible-main {
+  display: flex;
+  gap: 20px;
+  max-width: 1650px;
+  margin: 0 auto;
+  padding: 0 15px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  .filters-sidebar {
+    width: 270px;
+    height: 730px;
+    background: #fff;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    padding: 20px;
+    position: sticky;
+    top: 180px;
+    overflow-y: auto;
+    h3 {
+      font-family: var(--font-family-2);
+      margin-bottom: 20px;
+    }
+    .filter-item {
+      flex-direction: column;
+      border-bottom: 1px solid lightgray;
+      width: 100%;
+      height: 70px;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: var(--font-family-2);
+
+      .sort {
+        width: 25px;
+        position: relative;
+        left: -175px;
+        bottom: -30px;
+      }
+
+      img {
+        width: 80px;
+      }
+      .truck {
+        width: 20px;
+      }
+      .seller {
+        width: 20px;
+      }
+      .shop {
+        width: 20px;
+      }
+    }
+  }
+  .incredible-section {
+    .sort-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .sort-bar-right {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding: 12px 0;
+        font-family: var(--font-family-2);
+        font-size: 13px;
+        border-bottom: 1px solid #f0f0f1;
+        .sort-label {
+          color: #81858b;
+          margin-left: 8px;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 3px;
+          img {
+            width: 20px;
+          }
+        }
+        .sort-item {
+          text-decoration: none;
+          color: #3f4064;
+          transition: color 0.2s;
+        }
+        .sort-item:hover {
+          color: #ef394e;
+        }
+        .sort-item.active {
+          color: #ef394e;
+          font-weight: 600;
+        }
+      }
+      .sort-bar-left{
+        h3{
+          font-family: var(--font-family-2);
+          font-size: 12px;
+          color: #81858b;
+        }
+      }
+    }
+  }
+}
